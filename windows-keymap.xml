@@ -1,0 +1,64 @@
+<keymap version="1" name="Windows binhnd" parent="$default">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="AddToFavoritesPopup" />
+  <action id="Console.TableResult.NavigateForeignAction">
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="EditorPaste">
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="GotoTest" />
+  <action id="InsertLiveTemplate" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="d" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="a" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift ctrl insert" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="r" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="ServiceView.ShowServices" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="TableResult.GrowSelection" />
+  <action id="Terminal.Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="shift insert" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UsageFiltering.WriteAccess" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+</keymap>
